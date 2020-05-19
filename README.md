@@ -5,6 +5,15 @@ This ipmitool library is an `ipmitool` command wrapper to be used as an ipmi cli
 This library is made for the purposes of Bancadati and is therefor limited in functionality and supported commands.  
 For now only the (chassis) power command is supported.
 
+## Requirements
+
+This is an ipmitool wrapper and therefor it needs the ipmitool command.
+
+Install on linux:
+```sh
+sudo apt install ipmitool -y
+```
+
 ## Usage
 
 ```go

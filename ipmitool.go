@@ -66,7 +66,7 @@ func (cl *Client) execute(args []string) (string, error) {
 
 	err := cmd.Run()
 	if err != nil {
-		return "", fmt.Errorf("Failed to execute command: %w : %s", err, errBuf.String())
+		return "", fmt.Errorf("Failed to execute ipmitool command: %w : %s", err, errBuf.String())
 	}
 
 	return outBuf.String(), nil
