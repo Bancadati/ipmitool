@@ -23,7 +23,7 @@ import (
 	"fmt"
     "log"
 
-	"github.com/bancadati/ipmitool"
+	"github.com/Bancadati/ipmitool"
 )
 
 func main() {

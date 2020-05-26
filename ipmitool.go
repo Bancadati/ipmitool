@@ -11,7 +11,7 @@ const (
 )
 
 // NewClient returns a new IPMI client
-// port 0 will use the default ipmi port (623)
+// Port 0 will use the default ipmi port (623)
 func NewClient(addr string, port uint16, username, password string) (*Client, error) {
 	if port == 0 {
 		port = 623
